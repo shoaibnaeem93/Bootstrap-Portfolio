@@ -1,0 +1,169 @@
+#main-container {
+    padding-bottom: 10%;
+  }
+  
+  h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  h4 {
+      background-color: #4aaaa5;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 5px;
+      text-align: center;
+  }
+
+  h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-align: center;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+  #logo:hover,
+  input[type=submit]:hover {
+    background: grey;
+  }
+  
+  .social:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  
+  /***********************************
+  HEADER
+  ***********************************/
+  
+  
+  #logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  
+  
+  /***********************************
+  FOOTER
+  ***********************************/
+  
+  #footer {
+    padding: 10px 0;
+    font-size: 12px;
+    color:white;
+    text-align: center;
+    background: grey;
+    border-top: 8px solid #4aaaa5;
+  }
+  
+  
+  
+  /***********************************
+  MAIN
+  ***********************************/
+  
+  
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777777;
+    background-image: url("../images/gray_jean/gray_jean.png")
+  }
+  
+  #main-content {
+    background: white;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom:0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+  }
+  
+  #center-space {
+    padding: 10px;
+  }
+  
+  #sidebar {
+    background: white;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom:0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+  }
+  
+  #social-links {
+    display: block;
+    margin: auto;
+  }
+  
+  .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /*************************************
+  BONUS: FULL-WIDTH MOBILE HEADER
+  *************************************/
+  
+  
+  @media screen and (max-width: 768px) {
+    #logo {
+      width: 100%;
+    }
+    .navbar-header {
+      background: white;
+    }
+  }
+  
+  
+  
+  /*************************************
+  BONUS: LOGO ANIMATION
+  *************************************/
+  
+  
+  .slideDown{
+      animation-name: slideDown;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+  }
+  
+  @keyframes slideDown {
+      0% {
+          transform: translateY(-100%);
+      }
+      50%{
+          transform: translateY(8%);
+      }
+      65%{
+          transform: translateY(-4%);
+      }
+      80%{
+          transform: translateY(4%);
+      }
+      95%{
+          transform: translateY(-2%);
+      }
+      100% {
+          transform: translateY(0%);
+      }
+  }
+

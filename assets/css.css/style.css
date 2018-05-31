@@ -2,10 +2,16 @@
     padding-bottom: 10%;
   }
   
-  h1, h2, h3 {
+  h1, h2 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
     color: #4aaaa5;
+  }
+
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: #4aaaa5; 
   }
   
   h4 {
@@ -15,7 +21,56 @@
       padding: 5px;
       text-align: center;
   }
+  .hangman-image {
+    background: none repeat scroll 0 0 #FFffff;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    position: relative;
+    width:100%;
+    margin-bottom: 10%;
+  }
 
+  .rpg-image {
+    background: none repeat scroll 0 0 #FFffff;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    position: relative;
+    width:100%;
+    margin-bottom: 10%;
+  }
+
+  .trivia-image {
+    background: none repeat scroll 0 0 #FFffff;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    position: relative;
+    width:100%;
+    margin-bottom: 10%;
+  }
+
+  .widget-image {
+    background: none repeat scroll 0 0 #FFffff;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    position: relative;
+    width:100%;
+    margin-bottom: 10%;
+  }
+
+  .rps-image {
+    background: none repeat scroll 0 0 #FFffff;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    position: relative;
+    width:100%;
+    margin-bottom: 10%;
+  }
+  
   h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
